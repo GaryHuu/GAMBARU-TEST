@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Hong Huu - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          colors: {
+            white: '#FFFFFF',
+            yellow: '#FECB00',
+            text: '#2D2D2D',
+            dark: '#202026',
+            gray: '#CCCCCC',
+          },
+          screens: {
+            md: '768px',
+            lg: '1024px',
+            '2xl': '1441px',
+          },
+        },
+      }
+    </script>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-family: 'Montserrat', sans-serif !important;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+      ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md:flex">
+      <div class="pt-4 md:pt-0 md:w-[35%] bg-dark text-white">
+        <div
+          class="h-[290px] w-[290px] mx-auto md:h-[400px] 2xl:h-[500px] md:w-auto"
+        >
+          <img
+            class="w-full h-full object-cover object-center rounded-full md:rounded-none"
+            src="./images/avatar.jpg"
+            alt=""
+          />
+        </div>
+        <div class="px-4 bg-yellow py-6 md:hidden text-text my-4">
+          <h2 class="text-[24px]">
+            NGUYEN HONG <strong class="font-bold">HUU</strong>
+          </h2>
+          <p>FRONT END SOFTWARE ENGINEER</p>
+        </div>
+        <div class="py-4 px-4 md:px-0 md:py-8">
+          <div class="md:pl-10">
+            <h5
+              class="font-semibold pb-4 mb-4 border-b-2 border-yellow tracking-wider"
+            >
+              EDUCATION
+            </h5>
+            <div class="pl-4 flex flex-col gap-1">
+              <h6 class="font-semibold text-sm">
+                COMPUTER SOFTWARE ENGINEERING
+              </h6>
+              <p class="text-xs">HCMC University of Technology and Education</p>
+              <p class="text-xs">2018 - 2022</p>
+            </div>
+          </div>
+          <div class="md:pl-10 mt-8">
+            <h5
+              class="font-semibold pb-4 mb-4 border-b-2 border-yellow tracking-wider"
+            >
+              REFERENCE
+            </h5>
+            <div class="pl-4 flex flex-col gap-1">
+              <h6 class="font-semibold text-sm">Nguyen Anh Viet</h6>
+              <p class="text-xs">Project Manager | Gumi Vietnam Co., Ltd</p>
+              <p class="text-xs">+84 913 542 427</p>
+            </div>
+            <div class="pl-4 flex flex-col gap-1 mt-4">
+              <h6 class="font-semibold text-sm">Nguyen Thi Thuy Dung</h6>
+              <p class="text-xs">
+                Frontend Developer | Kubtech Company Limited
+              </p>
+              <p class="text-xs">+84 965 481 579</p>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-col gap-3">
+            <div>
+              <h6
+                class="font-semibold border-l-[40px] border-yellow bg-[#292A30] pl-4 text-sm"
+              >
+                Phone
+              </h6>
+              <p class="pl-14 text-xs mt-1">+84 379 339 693</p>
+            </div>
+            <div>
+              <h6
+                class="font-semibold border-l-[40px] border-yellow bg-[#292A30] pl-4 text-sm"
+              >
+                Email
+              </h6>
+              <p class="pl-14 text-xs mt-1">nguyenhuu220800@gmail.com</p>
+            </div>
+            <div>
+              <h6
+                class="font-semibold border-l-[40px] border-yellow bg-[#292A30] pl-4 text-sm"
+              >
+                LinkedIn
+              </h6>
+              <a
+                class="pl-14 text-xs mt-1 truncate block"
+                href="https://www.linkedin.com/in/huunguyen2000/"
+              >
+                https://www.linkedin.com/in/huunguyen2000/
+              </a>
+            </div>
+            <div>
+              <h6
+                class="font-semibold border-l-[40px] border-yellow bg-[#292A30] pl-4 text-sm"
+              >
+                Address
+              </h6>
+              <p class="pl-14 text-xs mt-1">Ho Chi Minh Vietnam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:flex-1 text-text">
+        <div
+          class="hidden md:block md:mt-[125px] 2xl:mt-[150px] md:px-10 bg-yellow md:py-10"
+        >
+          <h2 class="md:text-[32px] md:tracking-wider">
+            NGUYEN HONG <strong class="font-bold">HUU</strong>
+          </h2>
+          <p class="md:tracking-wider">FRONT END SOFTWARE ENGINEER</p>
+        </div>
+        <div class="px-4 md:pl-10 md:pr-10 lg:pr-20 py-10 flex flex-col gap-10">
+          <div>
+            <h5
+              class="font-semibold pb-4 mb-4 border-b-2 border-text tracking-wider"
+            >
+              PROFILE
+            </h5>
+            <p class="text-sm">
+              I am extremely enthusiastic about software development,
+              particularly in the front-end domain, because I want to provide
+              users with an intuitive interface as well as pleasant, consistent
+              experiences. Currently, I am looking for a position in which I can
+              contribute to the product.
+            </p>
+          </div>
+          <div>
+            <h5
+              class="font-semibold pb-4 mb-4 border-b-2 border-text tracking-wider"
+            >
+              WORK EXPERIENCE
+            </h5>
+            <div class="flex flex-col gap-4">
+              <div class="md:flex md:gap-1">
+                <p
+                  class="md:w-[100px] lg:w-[200px] font-semibold text-center text-sm mb-1 md:mb-0 md:text-left"
+                >
+                  May 2022 - Mar 2023
+                </p>
+                <div class="flex-1 flex flex-col gap-1">
+                  <h6 class="text-sm font-semibold">
+                    Front End Software Engineer
+                  </h6>
+                  <p class="text-sm font-semibold">
+                    KUBTECH JOINT STOCK COMPANY, Ho Chi Minh
+                  </p>
+                  <p class="text-sm font-semibold">
+                    Technologies used: ReactJS, NextJS, Tailwind, SCSS, MUI and
+                    Typescript
+                  </p>
+                  <div class="flex flex-col gap-1">
+                    <div>
+                      <p class="text-sm font-semibold">Project: EarnKUB</p>
+                      <div class="pl-2 text-sm flex flex-col gap-1 mt-1">
+                        <p>Team size: 10</p>
+                        <p>Main responsibilities:</p>
+                        <ul class="pl-5 list-disc">
+                          <li>
+                            Utilizing modern techniques, such as caching data
+                            and adapting image quality sizes based on the user's
+                            device, optimizes web page load times despite the
+                            presence of large amounts of data.
+                          </li>
+                          <li>
+                            Build a variety of content management systems using
+                            JavaScript, TypeScript, React, and NextJS.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <p class="text-sm font-semibold">
+                        Project: BitKUB Academy
+                      </p>
+                      <div class="pl-2 text-sm flex flex-col gap-1 mt-1">
+                        <p>Team size: 10</p>
+                        <p>Main responsibilities:</p>
+                        <ul class="pl-5 list-disc">
+                          <li>
+                            Create a mini-game that invites multiplayer
+                            participation and pays out for accurate responses.
+                          </li>
+                          <li>
+                            Daily communication and collaboration with
+                            multidisciplinary engineering, design, product
+                            owner, and stakeholder teams.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div>
+                      <p class="text-sm font-semibold">Project: NFT Gallery</p>
+                      <div class="pl-2 text-sm flex flex-col gap-1 mt-1">
+                        <p>Team size: 7</p>
+                        <p>Main responsibilities:</p>
+                        <ul class="pl-5 list-disc">
+                          <li>
+                            Collaborate directly with the design team to discuss
+                            and develop a more user-friendly interface solution.
+                          </li>
+                          <li>
+                            Significantly contributed to NFT Galleries by
+                            utilizing React and GraphQL, allowing users to have
+                            a visual experience as well as quickly purchase and
+                            auction NFTs via corresponding QR codes.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="md:flex md:gap-1">
+                <p
+                  class="md:w-[100px] lg:w-[200px] font-semibold text-center text-sm mb-1 md:mb-0 md:text-left"
+                >
+                  Mar 2021 - Apr 2022
+                </p>
+                <div class="flex-1 flex flex-col gap-1">
+                  <h6 class="text-sm font-semibold">
+                    Front End Software Engineer
+                  </h6>
+                  <p class="text-sm font-semibold">
+                    GUMI VIETNAM CO., LTD., Ho Chi Minh
+                  </p>
+                  <p class="text-sm font-semibold">
+                    Technologies used: ReactJS, SCSS, AntDesign
+                  </p>
+                  <div class="flex flex-col gap-1">
+                    <div>
+                      <p class="text-sm font-semibold">Project: Asura</p>
+                      <div class="pl-2 text-sm flex flex-col gap-1 mt-1">
+                        <p>Team size: 15</p>
+                        <p>Main responsibilities:</p>
+                        <ul class="pl-5 list-disc">
+                          <li>
+                            Develop an interface to facilitate the management of
+                            student candidate data import and export.
+                          </li>
+                          <li>
+                            Supply Japanese users with superior applications
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5
+              class="font-semibold pb-4 mb-4 border-b-2 border-text tracking-wider"
+            >
+              SOFTWARE SKILL
+            </h5>
+            <div
+              class="md:pl-[100px] lg:pl-[200px] flex flex-col md:flex-row md:flex-wrap gap-4"
+            >
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">HTML</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[90%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">SASS/SCSS</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[90%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">Git version control system</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[75%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">Javascript (ES5, ES6) , Typescript</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[90%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">ReactJS, NextJS and Redux</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[90%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-8px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">Clean Architecture</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[80%]"></div>
+                </div>
+              </div>
+              <div class="md:w-full lg:w-[calc(50%-6px)] flex flex-col gap-2">
+                <p class="text-sm font-semibold">Tailwind, Material-UI and Ant-Design</p>
+                <div class="w-full h-[6px] bg-gray rounded overflow-hidden">
+                  <div class="h-full bg-dark w-[90%]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
